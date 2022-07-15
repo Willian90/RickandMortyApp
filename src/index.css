@@ -110,3 +110,37 @@ img{
     font-size: 1rem;
   }
 }
+    @media screen and (max-width:460px) {
+      .container {
+        width: 100%;
+        background-color: burlywood;
+      }
+  
+      header {
+        padding: 1rem;
+        font-size: 0.70rem;
+      }
+  
+      main {
+        width: 100%;
+      }
+  
+      section {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .character{
+        flex-direction: column;
+        padding: 1rem;
+      }
+
+      img{
+        width: 100%;
+      }
+  
+      .details {
+        padding: 1rem 0 0 0;
+        font-size: 1rem;
+      }
+  }
